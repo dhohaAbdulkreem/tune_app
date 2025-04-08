@@ -2,13 +2,9 @@ import 'package:flutter/material.dart';
 import 'compenents/compenent.dart';
 import 'package:audioplayers/audioplayers.dart';
 
-class homepage extends StatefulWidget {
 
-  @override
-  State<homepage> createState() => _homepageState();
-}
 
-class _homepageState extends State<homepage> {
+class homepage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
